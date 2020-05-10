@@ -8,7 +8,7 @@
         <projectUrl>https://github.com/Chizh/PredicatesIndex</projectUrl>
         <license type="file">LICENSE.txt</license>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description></description>
+        <description>Interface and types for Predicates Index</description>
         <copyright>all rights are reserved</copyright>
     </metadata>
 u    <files>
