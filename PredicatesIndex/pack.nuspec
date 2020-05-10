@@ -11,7 +11,7 @@
         <description>Interface and types for Predicates Index</description>
         <copyright>all rights are reserved</copyright>
     </metadata>
-u    <files>
+    <files>
         <file src="licenses\LICENSE.txt" target="" />
         <file src="bin\release\netcoreapp3.1\*.dll" target="lib"/>
     </files>
