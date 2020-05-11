@@ -1,7 +1,6 @@
-﻿namespace PredicatesIndex.DataType
+﻿namespace PredicatesIndex
 {
     public class Number
-        : IDataType
     {
         public int Value { get; }
 

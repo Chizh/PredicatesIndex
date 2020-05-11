@@ -2,17 +2,18 @@
 <package>
     <metadata>
         <id>PredicatesIndex</id>
-        <authors>Andrey Chizh</authors>
-        <version>0.0.0</version>
-        <owners>Chizh Andrey</owners>
+        <authors>Artem Noskov, Andrey Chizh</authors>
+        <owners>Artem Noskov, Andrey Chizh</owners>
+        <version>0.0.1</version>
         <projectUrl>https://github.com/Chizh/PredicatesIndex</projectUrl>
         <license type="file">LICENSE.txt</license>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>Interface and types for Predicates Index</description>
-        <copyright>all rights are reserved</copyright>
+        <description>Library</description>
+        <copyright>All rights reserved</copyright>
+        <repository type="git" url="https://github.com/Chizh/PredicatesIndex" />
     </metadata>
     <files>
         <file src="licenses\LICENSE.txt" target="" />
-        <file src="bin\Release\netcoreapp3.1\*.dll" target="lib"/>
+        <file src="bin\release\netcoreapp3.1\*.dll" target="lib"/>
     </files>
 </package>
