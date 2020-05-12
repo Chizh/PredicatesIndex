@@ -9,8 +9,11 @@
         <license type="file">LICENSE.txt</license>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Library</description>
-        <copyright>All rights reserved</copyright>
+        <copyright>Artem Noskov, Andrey Chizh. All rights reserved</copyright>
         <repository type="git" url="https://github.com/Chizh/PredicatesIndex" />
+        <dependencies>
+            <group targetFramework="netcoreapp3.1" />
+        </dependencies>
     </metadata>
     <files>
         <file src="licenses\LICENSE.txt" target="" />
