@@ -1,7 +1,5 @@
 namespace PredicatesIndex.Conditions.StringConditions
 {
-    using PredicatesIndex.DataType;
-
     public abstract class StringCondition
         : ICondition
     {

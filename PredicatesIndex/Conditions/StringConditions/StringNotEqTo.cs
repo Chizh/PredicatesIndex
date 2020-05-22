@@ -1,9 +1,9 @@
 namespace PredicatesIndex.Conditions.StringConditions
 {
-    public class StringEqTo
+    public class StringNotEqTo
         : StringCondition
     {
-        public StringEqTo(
+        public StringNotEqTo(
             string value)
             : base(value: value)
         {
