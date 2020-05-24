@@ -1,10 +1,12 @@
 namespace PredicatesIndex.Conditions.StringConditions
 {
+    using PredicatesIndex.DataType;
+
     public class StringNotEqTo
         : StringCondition
     {
         public StringNotEqTo(
-            string value)
+            String value)
             : base(value: value)
         {
         }

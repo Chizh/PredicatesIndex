@@ -14,5 +14,22 @@
         {
             this.Value = value;
         }
+
+        public override int GetHashCode()
+        {
+            return this.Value.GetHashCode();
+        }
+
+        public override bool Equals(
+            object? obj)
+        {
+            return obj is Number key && this.Equals(key);
+        }
+
+        public bool Equals(
+            Number other)
+        {
+            return this.Value == other.Value;
+        }
     }
 }
